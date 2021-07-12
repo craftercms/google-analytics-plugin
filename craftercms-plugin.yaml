@@ -27,22 +27,24 @@ descriptorVersion: 2
 plugin:
   type: site
   id: org.craftercms.plugin.analytics
-  name: Analytics
+  name: Web Analytics Plugin
   tags:
+    - web
     - analytics
+    - freemarker
   version:
     major: 1
     minor: 0
     patch: 0
   description: A simple plugin for web analytics
   website:
-    name: Analytics
-    url: TBD
+    name: Web Analytics Plugin
+    url: https://github.com/craftercms/analytics-plugin
   media:
     screenshots:
       - title: Analytics
         description: Analytics Example
-        url: TBD
+        url: https://raw.githubusercontent.com/craftercms/analytics-plugin/master/.crafter/cover.png
   developer:
     company:
       name: Crafter Software
@@ -50,7 +52,7 @@ plugin:
       url: https://craftersoftware.com
   build:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
-    date: 2021-06-29T00:00:00Z
+    date: 2021-07-12T00:00:00Z
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
