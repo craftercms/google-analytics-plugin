@@ -36,7 +36,7 @@ plugin:
     major: 1
     minor: 0
     patch: 0
-  description: A simple plugin for web analytics
+  description: An extensible Web analytics plugin for Crafter CMS
   website:
     name: Web Analytics Plugin
     url: https://github.com/craftercms/analytics-plugin
