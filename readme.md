@@ -1,6 +1,6 @@
-# Analytics Plugin for Crafter CMS
+# Google Analytics Plugin for Crafter CMS
 
-This is a very simple but highly configurable plugin to add analytics to your site.
+This is a very simple but highly configurable plugin to add Google analytics to your site.
 
 # Installation
 
