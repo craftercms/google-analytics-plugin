@@ -26,25 +26,26 @@ descriptorVersion: 2
 # Describe the plugin
 plugin:
   type: site
-  id: org.craftercms.plugin.analytics
-  name: Web Analytics Plugin
+  id: org.craftercms.plugin.google.analytics
+  name: Google Analytics Plugin
   tags:
     - web
     - analytics
     - freemarker
+    - google
   version:
     major: 1
     minor: 0
     patch: 0
-  description: An extensible Web analytics plugin for Crafter CMS
+  description: A Google Analytics plugin for Crafter CMS
   website:
-    name: Web Analytics Plugin
-    url: https://github.com/craftercms/analytics-plugin
+    name: Google Analytics Plugin
+    url: https://github.com/craftercms/google-analytics-plugin
   media:
     screenshots:
-      - title: Analytics
-        description: Analytics Example
-        url: https://raw.githubusercontent.com/craftercms/analytics-plugin/master/.crafter/cover.png
+      - title: Google Analytics
+        description: Google Analytics
+        url: https://raw.githubusercontent.com/craftercms/google-analytics-plugin/master/.crafter/cover.png
   developer:
     company:
       name: Crafter Software
