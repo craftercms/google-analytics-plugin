@@ -36,8 +36,9 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   description: A Google Analytics plugin for Crafter CMS
+  documentation: "https://raw.githubusercontent.com/craftercms/google-analytics-plugin/master/readme.md"
   website:
     name: Google Analytics Plugin
     url: https://github.com/craftercms/google-analytics-plugin
