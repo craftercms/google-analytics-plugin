@@ -36,7 +36,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   description: A Google Analytics plugin for Crafter CMS
   documentation: "https://raw.githubusercontent.com/craftercms/google-analytics-plugin/master/readme.md"
   website:
@@ -65,3 +65,15 @@ plugin:
   crafterCmsEditions:
     - community
     - enterprise
+  parameters:
+    - label: Google Analytics ID
+      name: id
+      description: The Google Analytics ID (can be v3 or v4)
+    - label: Anonymize IP
+      name: anonymizeIp
+      description: Indicates if the IP address should be anonymized, defaults to false
+      required: false
+    - label: Enable in Preview
+      name: enabled
+      description: Indicates if Google Analytics should be added in preview, defaults to false
+      required: false

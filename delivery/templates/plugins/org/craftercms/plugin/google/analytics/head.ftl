@@ -23,11 +23,11 @@
   -->
 
 <#-- Check if the plugin is enabled -->
-<#if siteConfig.getBoolean('plugins.googleAnalytics.enabled', !modePreview)>
+<#if pluginConfig.getBoolean('enabled', !modePreview)>
   <#-- Check if the current item has the override property -->
   <#if (!(contentModel.disableGoogleAnalytics_b)!false) >
-    <#assign id = siteConfig.getString('plugins.googleAnalytics.id') />
-    <#assign anonymizeIp = siteConfig.getBoolean('plugins.googleAnalytics.anonymizeIp', false) />
+    <#assign id = pluginConfig.getString('id') />
+    <#assign anonymizeIp = pluginConfig.getBoolean('anonymizeIp', false) />
 
     <#if id?starts_with('UA-')>
       <!-- Google Analytics -->
