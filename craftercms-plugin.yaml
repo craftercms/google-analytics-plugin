@@ -49,9 +49,9 @@ plugin:
         url: https://raw.githubusercontent.com/craftercms/google-analytics-plugin/master/.crafter/cover.png
   developer:
     company:
-      name: Crafter Software
-      email: info@craftersoftware.com
-      url: https://craftersoftware.com
+      name: CrafterCMS
+      email: info@craftercms.com
+      url: https://craftercms.com
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
